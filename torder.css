@@ -1,0 +1,127 @@
+.hg{
+
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 25px;
+    color:black;
+}
+
+
+.pg{
+
+    text-align: center;
+    font-size: 1rem;
+    color:black;
+   
+}
+
+body{
+
+
+    background-image:url(images/240_F_508795601_5rECFKeX795XWiLMi0qzpjCpmJUch1pl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container{
+
+
+    height:400px;
+    width: 400px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3); 
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid white ;
+    background-color: aliceblue;
+    
+}
+
+
+
+.gq{
+
+
+    margin-left: 440px;
+     margin-top: 50px; 
+     width: 480px; 
+     margin-left: 50px;
+}
+
+
+
+.zk{
+
+    margin-left: 440px;
+     margin-top: 20px; 
+     width: 480px; 
+      margin-left: 50px;
+}
+
+
+
+.button{
+
+
+    margin-left: 440px; margin-top: 40px; width: 480px; height: 50px; font-weight:600; color: aliceblue; background-color: chocolate; border:1px solid chocolate;  margin-left: 50px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+     
+
+    .container{
+
+     
+      margin-top: 70px;
+      width:100px;
+     
+     
+    }
+
+
+    .gq{
+
+            margin-left:30px;
+            width:400px;
+
+    }
+
+
+
+    .zk{
+
+        margin-left:30px;
+        width:400px;
+
+
+    }
+
+
+    .button{
+
+        margin-left:30px;
+        width:400px;
+
+    }
+
+
+    .pg{
+           
+        margin-left: -50px;
+
+    }
+
+
+    .hg{
+          
+        margin-left: -50px;
+
+    }
+
+}

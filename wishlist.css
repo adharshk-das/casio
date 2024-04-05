@@ -1,0 +1,64 @@
+body{
+
+
+    background-image: url(images/age-barros-rBPOfVqROzY-unsplash.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+th,td{
+
+
+    color: aliceblue;
+}
+
+
+.table{
+
+
+    margin-top: 60px;
+    
+
+    font-weight: 700;
+    font-style: oblique;
+}
+
+
+.button{
+
+
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 40px;
+    width: 70px;
+    text-decoration: none;
+   
+}
+
+.ht{
+
+   
+     margin-left: 630px; 
+     margin-top: 30px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+
+
+    .ht{
+
+        margin-left:200px;
+    }
+
+
+}
+
