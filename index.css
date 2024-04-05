@@ -1,0 +1,893 @@
+body{
+
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    position: absolute;
+    
+}
+
+ 
+
+
+/*------Navbar-----*/
+
+
+
+
+.navbar-brand{
+
+  margin-left: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.navbar-brand span{
+
+  color: #ff523b;
+}
+
+
+.container-fluid ul li{
+
+  padding: 5px 20px;
+  
+}
+
+
+
+
+.form-control{
+
+  margin-left: 20%;
+  width:600px;
+  margin-top: 0px;
+  
+} 
+
+#search-button{
+
+ margin-left: 110px;
+}
+
+
+
+
+
+
+
+/*--------navbar2--------*/
+
+
+
+.uo{
+
+
+  padding:0 ;
+  margin:0px;
+  margin-left: 360px;
+  font-style: italic;
+ 
+}
+
+
+
+.dropbtn {
+ 
+  color:black; 
+  padding: 12px 40px;
+  font-size:1rem;
+  border: none;
+  font-weight:500;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+   background-color:white; 
+  min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  z-index: 1;
+  font-weight:400;
+
+    }
+
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+.dropdown-content a:hover {background-color:#ddd;}  
+
+.dropdown:hover .dropdown-content {display: block;}
+
+ .dropdown:hover .dropbtn { text-decoration: underline ;  } 
+
+
+
+
+
+
+
+
+
+
+/*----------Watchbg----------*/
+
+
+
+
+#yt{
+
+    height: 580px;
+    width: 1348px;
+    background-image: url(images/dushawn-jovic-8_LCguEEMfM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+
+
+}
+
+
+
+.section4{
+
+
+  color: white; 
+  font-size:80px; 
+  font-family:serif;
+  padding-top: 240px;
+  padding-left: 350px;
+  font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------Bestsellers--------------*/
+ 
+
+
+
+
+
+ .small-container{
+
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+     padding-right: 25px;
+    text-align: center;
+    font-style: italic;
+  
+ }
+
+
+
+ .col h3{ 
+    color: #444;
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.col h3 span{
+    color: #ff523b;
+}
+
+
+ .col{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+  .col img{
+    width: 90%;
+    border-radius: 15px;
+    border: 3px solid #ff523b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+} 
+
+
+.vc{
+
+  margin-left: auto;
+
+}
+
+
+.zi{
+
+  margin-left: auto;
+
+}
+
+
+
+
+
+.navbar-nav{
+
+  padding: 10px 12px;
+ 
+}
+
+
+ 
+
+
+
+
+
+
+
+
+.card{
+        border-radius: 15px;
+        border: 3px solid #ff523b;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+
+} 
+
+ 
+
+
+ .col-4{
+
+    flex-basis: 24%;
+    display: grid;
+     padding: 1rem;
+    min-width: 250px;
+    margin-bottom: 6rem;
+    transition: 0.4s ease;
+
+}
+
+
+
+
+.oi{
+
+  font-size: 1.3rem;
+  text-align:justify;
+  font-style: italic;
+}
+
+ .col-4 img{
+    width: 100%;
+    
+ } 
+
+.title{ 
+    text-align: center;
+    margin: 45px auto;
+    color: #222;
+    font-size: 2rem;
+    width: 200px;
+    font-style: italic;
+    margin-bottom: 70px;
+} 
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+/*-----Testimonial-----*/
+
+
+
+
+
+
+ .testimonial{
+    padding-top: 10rem;
+   
+    
+}
+
+.col-3{
+  
+    flex-basis: 30%;
+    text-align: center;
+    padding: 40px 20px;
+     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.5s ease;
+    margin-left: 30px;
+
+}
+
+
+
+.col-3:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.col-3 img{
+    width: 50px;
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    border: 0.8px solid #ff523b;
+}
+
+
+.col-3 p{
+    font-size: 1.4rem;
+    text-align: left;
+    color: #555;
+    font-style: italic;
+}
+
+
+.col-3 h3{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #222;
+    font-style: italic;
+}
+
+
+.col-3 .rating{
+    color: #ff523b;
+}
+
+
+
+.col-3 span{
+    color: #ff523b;
+}
+
+
+
+.col-3 .fa-quote-left{
+    color: #ff523b;
+    font-size: 1.8rem;
+} 
+
+
+
+
+
+
+
+
+/*---------------collections-----------------*/
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 300px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1577 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  display: grid;
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.snip1577 h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img,
+.snip1577.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+
+.sz{
+
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align:justify;
+  margin-left: 120px;
+
+}
+
+
+
+
+/*---------------------------footer----------------------*/
+
+
+.footer{
+  background-color: #000;
+  color: #8a8a8a;
+  font-size: 1.4rem;
+  padding: 60px 0 20px;
+  margin-top: 200px;
+  font-style: italic;
+}
+
+.footer p{
+  color: #8a8a8a;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 2.0rem;
+  text-align:center;
+}
+
+
+
+
+.col-6{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col-1 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-col-3,.footer-col-4{
+  flex-basis: 20%;
+  text-align: center;
+
+}
+
+ul{
+  list-style: none;
+}
+
+ .app-store{
+  margin-top: 20px;
+} 
+
+.app-logo img{
+  width: 140px;
+  border-radius: 30px;
+}
+
+
+.copyright{
+
+  text-align: center;
+  padding-top: 1.2rem ;
+  margin-bottom: 0.5rem;
+  
+ 
+
+ 
+}
+
+.footer hr{
+  background: none;
+    height: 1px;
+    
+ 
+  
+} 
+
+.f-logo h1{
+  color: #fff;
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+  
+}
+
+.f-logo span{
+
+  color: #ff523b;
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width:600px){
+
+
+
+
+  body{
+
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    position:absolute;
+  }
+
+
+
+
+
+
+/*----------navbar---------*/
+
+
+
+
+       .form-control{
+
+        width:390px;
+        height: auto;
+        margin-top: 15px;
+        
+        margin-left:30px;
+
+       }
+
+
+
+       #search-button{
+
+
+        margin-left:-5px;
+        height: 39px;
+        margin-top: 14px;
+       }
+
+
+       #yt{
+              
+            margin: auto;
+            height:auto;
+            width: auto;
+            background-attachment: fixed;
+            margin-left: auto;
+           
+           
+
+       
+       }
+
+
+       .section4{
+
+              font-size: 40px;
+              margin-left:-10%;
+              margin: auto;
+              padding:150px 90px;
+              
+             
+               
+
+               
+       }
+
+
+
+
+       /*---------Navbar2----------*/
+
+
+
+       .uo{
+
+        margin: auto;
+        margin-left: 130px;
+        text-align:center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+       }
+
+
+
+       /*-----Bestsellers------*/
+
+
+
+       .small-container{
+
+        margin: auto;
+        margin-bottom: 5rem;
+       }
+
+
+
+
+       /*----collections-----*/
+
+
+       
+
+
+       .sz{
+
+              margin-left: auto;
+              text-align:center;
+
+       }
+
+
+       .snip1577{
+
+
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-bottom: 5rem;
+
+
+
+       }
+
+
+
+
+       /*--------Bestsellers---------*/
+
+
+
+       .vc{
+               
+               
+               margin-left: 28%;
+               
+              
+       }
+
+
+
+       .zi{
+
+             margin-left: 30%;
+
+       }
+
+
+
+
+       /*-------Testimonial--------*/
+
+
+
+       .col-3{
+
+           margin-left: auto;
+
+       }
+
+
+       .col-3 p{
+
+        text-align: justify;
+        overflow:hidden;
+       }
+
+
+
+
+
+
+       /*--------Footer----------*/
+
+
+       .footer-col-1 {
+
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+       
+
+       }
+
+
+       .footer-col-2{
+
+        margin-bottom: 2rem;
+        
+       }
+
+
+
+       .footer-col-3{
+
+        margin: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+       }
+
+
+
+       .footer-col-4{
+
+        margin-left: auto;
+        margin: auto;
+        margin-bottom: 2rem;
+       }
+
+
+       .copyright{
+
+       margin-left: 10px;
+       }
+
+
+ }
+  
+ 
