@@ -546,7 +546,10 @@ body{
   font-size: 1.3rem;
   font-style: italic;
   text-align:justify;
-  margin-left: 120px;
+  padding: 5%;
+ 
+  
+
 
 }
 
@@ -778,7 +781,7 @@ ul{
        .sz{
 
               margin-left: auto;
-              text-align:center;
+              text-align:justify;
 
        }
 
