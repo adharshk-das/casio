@@ -16,7 +16,7 @@
 
     <p class="pg">Please enter your details to track your order</p>
 
-
+    <form id="myForm">
     <div class="form-floating mb-3 gq" >
 
         <input type="email" id="floatingInput" class="form-control" placeholder="name@example.com">
@@ -33,7 +33,7 @@
     </div>
 
     <button class="button" onclick="myFunction()">TRACK ORDER</button>
-
+    </form>
     </div>
     
     
@@ -47,7 +47,7 @@
 
 function myFunction(){
 
-    alert("ok")
+     document.getElementById("myForm").reset();
 }
 
 
